@@ -52,3 +52,15 @@ function div() {
         document.getElementById("result").innerHTML = "Answer: " + (a / b);
     }
 }
+// Auto Save Notes
+const notes = document.getElementById("notes");
+
+if (notes) {
+    // Load saved notes
+    notes.value = localStorage.getItem("studentNotes") || "";
+
+    // Save while typing
+    notes.addEventListener("input", function () {
+        localStorage.setItem("studentNotes", notes.value);
+    });
+}
