@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(to right, #dbeafe, #fce7f3);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4338ca;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 12px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+h1 {
+    font-size: 35px;
+}
+
+input {
+    width: 250px;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button {
+    transition: 0.3s;
+}
+.dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark button {
+    background: #444;
+    color: white;
+}
+
+.dark input,
+.dark textarea {
+    background: #333;
+    color: white;
+    border: 1px solid #777;
+}
+#clock {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.navbar {
+    background: #0077ff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    margin:8px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0056cc;
+    transform:scale(1.05);
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.hero{
+    background:white;
+    padding:30px;
+    margin:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.hero h1{
+    color:#0077ff;
+}
+
+.hero p{
+    color:#555;
+    font-size:18px;
+}
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
