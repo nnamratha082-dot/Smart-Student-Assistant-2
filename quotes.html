@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎲 Random Quote Generator</h1>
+
+<h2 id="quote">Click the button!</h2>
+
+<button onclick="showQuote()">Show Quote</button>
+
+<script>
+let quotes = [
+    "Believe in yourself! 💪",
+    "Never stop learning. 📚",
+    "Success comes from hard work. 🚀",
+    "Dream big and work hard. 🌟",
+    "Every day is a new opportunity. 😊"
+];
+
+function showQuote() {
+    let random = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quote").innerHTML = quotes[random];
+}
+</script>
+
+</body>
+</html>
