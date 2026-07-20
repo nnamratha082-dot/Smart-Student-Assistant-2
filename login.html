@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🔐 Login</h1>
+
+<input type="text" placeholder="Username"><br><br>
+
+<input type="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+    let username = document.querySelector('input[type="text"]').value;s
+    let password = document.querySelector('input[type="password"]').value;
+
+    if(username == "namratha" && password == "1234"){
+        alert("Login Successful ✅");
+        window.location.href = "home.html";
+    }
+    else{
+        alert("Invalid Username or Password ❌");
+    }
+}
+</script>
+
+<script>
+function login(){
+    window.location.href = "home.html";
+}
+</script>
+
+</body>
+</html>
